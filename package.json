@@ -1,6 +1,6 @@
 {
-  "name": "gweiticker",
-  "productName": "gweiticker",
+  "name": "cryptoticker",
+  "productName": "cryptoticker",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".vite/build/main.js",

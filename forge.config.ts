@@ -10,7 +10,12 @@ import { FuseV1Options, FuseVersion } from '@electron/fuses';
 const config: ForgeConfig = {
   packagerConfig: {
     asar: true,
-    extraResource: ['assets/gas.png'],
+    extraResource: [
+      'assets/bitcoin.png',
+      'assets/ethereum.png',
+      'assets/gas.png',
+      'src',
+    ],
   },
   rebuildConfig: {},
   makers: [
